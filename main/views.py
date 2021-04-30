@@ -8,4 +8,4 @@ def team_view(request):
 	return render(request=request, template_name='main/team.html', context={})
 
 def reports_view(request):
-	return render(request=request, template_name='main/team.html', context={})
+	return render(request=request, template_name='main/reports.html', context={})
